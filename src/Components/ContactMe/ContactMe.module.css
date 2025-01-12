@@ -1,0 +1,60 @@
+.inputBorder {
+    border: none !important;
+    border-bottom: 2px solid #dee2e6 !important;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .inputBorder:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid #1ABC9C;
+  }
+
+.btnSuccess{
+    background-color: #1ABC9C !important;
+    border: none;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    text-align: start !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.star{
+  font-size: 32px !important;
+}
+.devider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.devider::before,
+.devider::after {
+  content: "";
+  border-bottom: 5px solid #333;
+  margin: 0 12px; 
+  width: 30%;
+}
+
+h2 {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fullWidthSection {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

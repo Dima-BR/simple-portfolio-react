@@ -1,0 +1,42 @@
+.aboutSection {
+    background-color: #1ABC9C;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 5rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.25rem !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    margin-top: 30px !important;
+}
+
+.star{
+    font-size: 32px !important;
+}
+.devider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .devider::before,
+  .devider::after {
+    content: "";
+    border-bottom: 5px solid white;
+    margin: 0 12px; 
+    width: 30%;
+  }
